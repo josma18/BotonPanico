@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">BotonPanico</string>
+    <string name="app_saludo">Bienvenido al mundo de SISE</string>
+    <string name="app_advertencia">Aun estamos haciendo mantenimiento a la aplicacion, Vuelva mas tarde</string>
+    <string name="todo">TODO</string>
+</resources>
