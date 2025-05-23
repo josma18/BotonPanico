@@ -26,7 +26,7 @@
         android:layout_height="60dp"
         android:onClick="onClickInicio"
         android:layout_marginTop="20dp"
-        android:text="@string/activini_btn_inicio"
+        android:text="@string/actini_btn_inicio"
         android:textSize="22sp"
         app:layout_constraintTop_toBottomOf="@id/activitymain_btn_perfilcuida"
         app:layout_constraintEnd_toEndOf="parent"

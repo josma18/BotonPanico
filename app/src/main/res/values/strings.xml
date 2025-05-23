@@ -12,6 +12,10 @@
     <string name="activityperfilciudadano_btn_user">Guardar datos</string>
 
 
-    <string name="activini_btn_sos">SOS</string>
-    <string name="activini_btn_inicio">Inicio</string>
+    <string name="actini_btn_sos">SOS</string>
+    <string name="actini_btn_inicio">Inicio</string>
+    <string name="actini_btn_incendio">Incendio</string>
+    <string name="actini_btn_asistencia">Asistencia</string>
+    <string name="actini_btn_otro">Otra Incidencia</string>
+
 </resources>

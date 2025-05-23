@@ -15,5 +15,6 @@
         <item name="android:textSize">@dimen/margin_grande</item>
     </style>
 
+    <style name="BotonSOSPrincipal"></style>
 
 </resources>
