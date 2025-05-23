@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Titulo_Principal">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">@color/amber</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Spinner">
+        <item name="android:textSize">@dimen/margin_pequeno</item>
+    </style>
+
+    <style name="EditText">
+        <item name="android:textSize">@dimen/margin_grande</item>
+    </style>
+
+
+</resources>

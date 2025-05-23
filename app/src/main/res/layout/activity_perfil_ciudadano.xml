@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.PerfilCiudadanoActivity">
+
+
+    <TextView
+        android:id="@+id/activityperfilciudadano_tv_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/activityperfilciudadano_tv_titulo"
+        style="@style/Titulo_Principal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/activityperfilciudadano_img_foto"
+        android:layout_width="131dp"
+        android:layout_height="122dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activityperfilciudadano_tv_titulo"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Spinner
+        android:id="@+id/activityperfilciudadano_spn_tipodocumento"
+        style="@style/Spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_grande"
+        android:layout_marginTop="@dimen/margin_medio"
+        android:layout_marginEnd="@dimen/margin_grande"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activityperfilciudadano_img_foto" />
+
+    <EditText
+        android:id="@+id/activityperfilciudadano_et_numerodocumento"
+        style="@style/EditText"
+        android:layout_width="370dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="@dimen/margin_grande"
+        android:layout_marginTop="@dimen/margin_medio"
+        android:layout_marginEnd="@dimen/margin_grande"
+        android:hint="@string/activityperfilciudadano_et_numerodocumento_hint"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activityperfilciudadano_spn_tipodocumento" />
+
+    <EditText
+        android:id="@+id/activityperfilciudadano_ap_apellido_paterno"
+        style="@style/EditText"
+        android:layout_width="370dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="@dimen/margin_grande"
+        android:layout_marginTop="@dimen/margin_medio"
+        android:layout_marginEnd="@dimen/margin_grande"
+        android:hint="@string/activityperfilciudadano_et_apellido_paterno_hint"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activityperfilciudadano_et_numerodocumento"
+        tools:ignore="TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/activityperfilciudadano_am_apellido_materno"
+        style="@style/EditText"
+        android:layout_width="370dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="@dimen/margin_grande"
+        android:layout_marginTop="@dimen/margin_medio"
+        android:layout_marginEnd="@dimen/margin_grande"
+        android:hint="@string/activityperfilciudadano_et_apellido_materno_hint"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activityperfilciudadano_ap_apellido_paterno"  />
+
+    <EditText
+        android:id="@+id/activityperfilciudadano_nm_nombre"
+        style="@style/EditText"
+        android:layout_width="370dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="@dimen/margin_grande"
+        android:layout_marginTop="@dimen/margin_medio"
+        android:layout_marginEnd="@dimen/margin_grande"
+        android:hint="@string/activityperfilciudadano_et_nombre_hint"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activityperfilciudadano_am_apellido_materno"/>
+
+    <EditText
+        android:id="@+id/activityperfilciudadano_cl_numerocelular"
+        style="@style/EditText"
+        android:layout_width="370dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="@dimen/margin_grande"
+        android:layout_marginTop="@dimen/margin_medio"
+        android:layout_marginEnd="@dimen/margin_grande"
+        android:hint="@string/activityperfilciudadano_et_numerocelular_hint"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activityperfilciudadano_nm_nombre"/>
+
+    <EditText
+        android:id="@+id/activityperfilciudadano_co_correo"
+        style="@style/EditText"
+        android:layout_width="370dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="@dimen/margin_grande"
+        android:layout_marginTop="@dimen/margin_medio"
+        android:layout_marginEnd="@dimen/margin_grande"
+        android:hint="@string/activityperfilciudadano_et_correo_hint"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activityperfilciudadano_cl_numerocelular" />
+
+    <EditText
+        android:id="@+id/activityperfilciudadano_di_direccion"
+        style="@style/EditText"
+        android:layout_width="370dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="@dimen/margin_grande"
+        android:layout_marginTop="@dimen/margin_medio"
+        android:layout_marginEnd="@dimen/margin_grande"
+        android:hint="@string/activityperfilciudadano_et_direccion_hint"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activityperfilciudadano_co_correo" />
+
+    <Button
+        android:layout_width="306dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="@dimen/margin_grande"
+        android:layout_marginTop="@dimen/margin_medio"
+        android:layout_marginEnd="@dimen/margin_grande"
+        android:text="@string/activityperfilciudadano_btn_user"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activityperfilciudadano_di_direccion"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

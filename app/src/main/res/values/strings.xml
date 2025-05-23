@@ -1,6 +1,17 @@
 <resources>
     <string name="app_name">BotonPanico</string>
-    <string name="app_saludo">Bienvenido al mundo de SISE</string>
-    <string name="app_advertencia">Aun estamos haciendo mantenimiento a la aplicacion, Vuelva mas tarde</string>
-    <string name="todo">TODO</string>
+    <string name="activityperfilciudadano_tv_titulo">Completa tu perfil</string>
+
+    <string name="activityperfilciudadano_et_numerodocumento_hint">Numero de documento</string>
+    <string name="activityperfilciudadano_et_apellido_paterno_hint">Apellido Paterno</string>
+    <string name="activityperfilciudadano_et_apellido_materno_hint">Apellido Materno</string>
+    <string name="activityperfilciudadano_et_nombre_hint">Nombre</string>
+    <string name="activityperfilciudadano_et_numerocelular_hint">Numero de Celular</string>
+    <string name="activityperfilciudadano_et_correo_hint">Correo</string>
+    <string name="activityperfilciudadano_et_direccion_hint">Direccion</string>
+    <string name="activityperfilciudadano_btn_user">Guardar datos</string>
+
+
+    <string name="activini_btn_sos">SOS</string>
+    <string name="activini_btn_inicio">Inicio</string>
 </resources>

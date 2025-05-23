@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="red">#B41408</color>
+    <color name="black">#FF000000</color> <!-- Negro opaco -->
+    <color name="white">#FFFFFFFF</color> <!-- Blanco opaco -->
+    <color name="red">#FFC10617</color>   <!-- Rojo opaco -->
+    <color name="pink">#FFFFC0CB</color>  <!-- Rosa claro opaco -->
+    <color name="violet">#FF8A2BE2</color> <!-- Violeta opaco -->
+    <color name="blue">#FF2196F3</color>  <!-- Azul opaco -->
+    <color name="yellow">#FFFFEB3B</color> <!-- Amarillo opaco -->
+    <color name="green">#FF4CAF50</color>         <!-- Verde -->
+    <color name="orange">#FFFF9800</color>        <!-- Naranja -->
+    <color name="brown">#FF795548</color>         <!-- Marrón -->
+    <color name="gray">#FF9E9E9E</color>          <!-- Gris medio -->
+    <color name="light_gray">#FFEEEEEE</color>    <!-- Gris claro -->
+    <color name="dark_gray">#FF424242</color>     <!-- Gris oscuro -->
+    <color name="teal">#FF009688</color>          <!-- Verde azulado -->
+    <color name="indigo">#FF3F51B5</color>        <!-- Índigo -->
+    <color name="cyan">#FF00BCD4</color>          <!-- Cian -->
+    <color name="lime">#FFCDDC39</color>          <!-- Lima -->
+    <color name="amber">#FFFFC107</color>         <!-- Ámbar -->
+    <color name="deep_orange">#FFFF5722</color>   <!-- Naranja fuerte -->
+    <color name="deep_purple">#FF673AB7</color>   <!-- Púrpura oscuro -->
+    <color name="light_blue">#FF03A9F4</color>    <!-- Azul claro -->
 </resources>

@@ -1,11 +1,7 @@
-package com.sise.botonpanico;
+package com.sise.botonpanico.activities;
 
-import android.Manifest;
-import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
-
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,34 +9,24 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.sise.botonpanico.activities.InicioActivity;
-import com.sise.botonpanico.activities.PerfilCiudadanoActivity;
+import com.sise.botonpanico.MainActivity;
+import com.sise.botonpanico.R;
 
-public class MainActivity extends AppCompatActivity {
+public class PerfilCiudadanoActivity extends AppCompatActivity {
 
-    private final String TAG = MainActivity.class.getSimpleName();
+    private final String TAG = PerfilCiudadanoActivity.class.getSimpleName();
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Log.i(TAG,"Ejecutado Metodo onCreate()");
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_perfil_ciudadano);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-    }
-
-    public void onClickPerfilCiudadano(View view){
-        Intent intent = new Intent(MainActivity.this, PerfilCiudadanoActivity.class);
-        startActivity(intent);
-        //finish(); con esto se acaba todo
-    }
-    public void onClickInicio(View view){
-        Intent intent = new Intent(MainActivity.this, InicioActivity.class);
-        startActivity(intent);
     }
 
     @Override
@@ -83,4 +69,5 @@ public class MainActivity extends AppCompatActivity {
         Log.i(TAG,"Ejecutado Metodo onDestroy()");
 
     }
+
 }
