@@ -10,18 +10,19 @@
 
     <Button
         android:id="@+id/actini_btn_aux1"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:layout_marginStart="@dimen/margin_grande"
-        android:layout_marginEnd="@dimen/margin_grande"
         android:layout_marginTop="@dimen/margin_grande"
+        android:layout_marginEnd="@dimen/margin_grande"
+        android:background="@drawable/btn_principal_sos"
         android:text="@string/actini_btn_sos"
         android:textSize="30sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         app:backgroundTint="@null"
-        android:background="@drawable/btn_principal_sos"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/actini_btn_otro"/>
 
 
     <Button
